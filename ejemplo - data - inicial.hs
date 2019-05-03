@@ -1,5 +1,7 @@
 -- Inferencia de Tipos de datos
 -- Tipos de datos variables
+--
+
 maximo::  Ord a => a -> a -> a
 maximo a b 
   | a > b = a
